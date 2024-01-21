@@ -100,7 +100,7 @@ public class MainActivity extends AppCompatActivity {
         context.add(device);
         this.poseTracker = new mmdeploy.PoseTracker(detModel, poseModel, context);
         mmdeploy.PoseTracker.Params params = this.poseTracker.initParams();
-        params.detInterval = 1;
+        params.detInterval = 15 ;
         params.poseMaxNumBboxes = 1;
         long stateHandle = this.poseTracker.createState(params);
         return stateHandle;

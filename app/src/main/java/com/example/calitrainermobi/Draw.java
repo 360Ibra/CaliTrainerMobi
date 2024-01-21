@@ -40,6 +40,7 @@ public class Draw {
             mmdeploy.PoseTracker.Result pt = results[i];
             for (int j = 0; j < pt.keypoints.length; j++) {
                 PointF p = pt.keypoints[j];
+                System.out.println("keypoints" +p);
                 p.x *= scale;
                 p.y *= scale;
                 pt.keypoints[j] = p;
@@ -59,7 +60,7 @@ public class Draw {
             for (int j = 0; j < pt.keypoints.length; j++) {
                 if (used[j] == 1) {
                     Point p = new Point(pt.keypoints[j].x, pt.keypoints[j].y);
-                    Imgproc.circle(frame, p, 1, palette[pointColor[j]], 2);
+                    Imgproc.circle(frame, p, 1, palette[pointColor[j]], 15);
                 }
             }
             float bbox[] = {pt.bbox.left, pt.bbox.top, pt.bbox.right, pt.bbox.bottom};
