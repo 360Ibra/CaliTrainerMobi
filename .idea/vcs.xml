@@ -3,11 +3,6 @@
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/mmdeploy" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/mmdeploy/third_party/cub" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/mmdeploy/third_party/pybind11" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/mmdeploy/third_party/spdlog" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/ncnn" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/ncnn/glslang" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/ncnn/python/pybind11" vcs="Git" />
   </component>
 </project>

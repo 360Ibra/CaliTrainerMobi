@@ -48,6 +48,7 @@ public class MainActivity extends AppCompatActivity {
 
     private VideoCapture videoCapture;
 //    Testing Git Version Control between devices
+//    FROM PC TO LAPTOP TEST
 
     static {
         System.loadLibrary("opencv_java4");
