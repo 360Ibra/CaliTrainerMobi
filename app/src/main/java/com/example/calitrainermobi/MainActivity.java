@@ -47,6 +47,7 @@ public class MainActivity extends AppCompatActivity {
     private int frameID;
 
     private VideoCapture videoCapture;
+//    Testing Git Version Control between devices
 
     static {
         System.loadLibrary("opencv_java4");
