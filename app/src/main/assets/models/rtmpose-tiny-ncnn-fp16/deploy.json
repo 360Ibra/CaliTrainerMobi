@@ -1,5 +1,5 @@
 {
-    "version": "1.0.0rc1",
+    "version": "1.3.1",
     "task": "PoseDetector",
     "models": [
         {
@@ -7,7 +7,7 @@
             "net": "end2end.param",
             "weights": "end2end.bin",
             "backend": "ncnn",
-            "precision": "FP16",
+            "precision": "FP32",
             "batch_size": 1,
             "dynamic_shape": false
         }
