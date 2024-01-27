@@ -167,8 +167,9 @@ public class MainActivity extends AppCompatActivity {
                         return;
                     }
                     mmdeploy.PoseTracker.Result[] results = poseTracker.apply(stateHandle, mat, -1);
-                    Draw.drawPoseTrackerResult(frame, results);
-//                    DrawSkeleton.drawPoseTrackerResult(frame, results);
+
+//                    Draw.drawPoseTrackerResult(frame, results);
+                    DrawSkeleton.drawPoseTrackerResult(frame, results);
 
                     Bitmap bitmap = null;
                     bitmap = Bitmap.createBitmap(frame.width(), frame.height(), Bitmap.Config.ARGB_8888);
