@@ -113,8 +113,8 @@ HardSigmoid      /backbone/stage4/stage4.2/attention/act/HardSigmoid 1 1 /backbo
 BinaryOp         /backbone/stage4/stage4.2/attention/Mul 2 1 /backbone/stage4/stage4.2/Concat_output_0_splitncnn_0 /backbone/stage4/stage4.2/attention/act/HardSigmoid_output_0 /backbone/stage4/stage4.2/attention/Mul_output_0 0=2
 Convolution      /backbone/stage4/stage4.2/final_conv/conv/Conv 1 1 /backbone/stage4/stage4.2/attention/Mul_output_0 /backbone/stage4/stage4.2/final_conv/conv/Conv_output_0 0=384 1=1 11=1 2=1 12=1 3=1 13=1 4=0 14=0 15=0 16=0 5=1 6=147456
 Swish            /backbone/stage4/stage4.2/final_conv/activate/Mul 1 1 /backbone/stage4/stage4.2/final_conv/conv/Conv_output_0 /backbone/stage4/stage4.2/final_conv/activate/Mul_output_0
-Convolution      /final_layer/Conv        1 1 /backbone/stage4/stage4.2/final_conv/activate/Mul_output_0 /final_layer/Conv_output_0 0=16 1=7 11=7 2=1 12=1 3=1 13=1 4=3 14=3 15=3 16=3 5=1 6=301056
-Reshape          /Reshape                 1 1 /final_layer/Conv_output_0 /Reshape_output_0 0=-1 1=16
+Convolution      /final_layer/Conv        1 1 /backbone/stage4/stage4.2/final_conv/activate/Mul_output_0 /final_layer/Conv_output_0 0=17 1=7 11=7 2=1 12=1 3=1 13=1 4=3 14=3 15=3 16=3 5=1 6=319872
+Reshape          /Reshape                 1 1 /final_layer/Conv_output_0 /Reshape_output_0 0=-1 1=17
 Split            splitncnn_12             1 2 /Reshape_output_0 /Reshape_output_0_splitncnn_0 /Reshape_output_0_splitncnn_1
 UnaryOp          /mlp/mlp.0/Abs           1 1 /Reshape_output_0_splitncnn_1 /mlp/mlp.0/Abs_output_0 0=0
 BinaryOp         /mlp/mlp.0/Pow           1 1 /mlp/mlp.0/Abs_output_0 /mlp/mlp.0/Pow_output_0 0=6 1=1 2=2.000000e+00
@@ -169,5 +169,5 @@ BinaryOp         /gau/res_scale/Mul       2 1 /gau/res_scale/Unsqueeze_output_0 
 Squeeze          /gau/res_scale/Squeeze   1 1 /gau/res_scale/Mul_output_0 /gau/res_scale/Squeeze_output_0 -23303=1,0
 BinaryOp         /gau/Add_2               2 1 /gau/res_scale/Squeeze_output_0 /gau/o/Gemm_output_0 /gau/Add_2_output_0 0=0
 Split            splitncnn_17             1 2 /gau/Add_2_output_0 /gau/Add_2_output_0_splitncnn_0 /gau/Add_2_output_0_splitncnn_1
-InnerProduct     /cls_x/Gemm              1 1 /gau/Add_2_output_0_splitncnn_1 output 0=384 1=0 2=98304
-InnerProduct     /cls_y/Gemm              1 1 /gau/Add_2_output_0_splitncnn_0 499 0=512 1=0 2=131072
+InnerProduct     /cls_x/Gemm              1 1 /gau/Add_2_output_0_splitncnn_1 simcc_x 0=384 1=0 2=98304
+InnerProduct     /cls_y/Gemm              1 1 /gau/Add_2_output_0_splitncnn_0 simcc_y 0=512 1=0 2=131072

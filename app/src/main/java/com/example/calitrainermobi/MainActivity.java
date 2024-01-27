@@ -168,6 +168,8 @@ public class MainActivity extends AppCompatActivity {
                     }
                     mmdeploy.PoseTracker.Result[] results = poseTracker.apply(stateHandle, mat, -1);
                     Draw.drawPoseTrackerResult(frame, results);
+//                    DrawSkeleton.drawPoseTrackerResult(frame, results);
+
                     Bitmap bitmap = null;
                     bitmap = Bitmap.createBitmap(frame.width(), frame.height(), Bitmap.Config.ARGB_8888);
                     org.opencv.android.Utils.matToBitmap(frame, bitmap);

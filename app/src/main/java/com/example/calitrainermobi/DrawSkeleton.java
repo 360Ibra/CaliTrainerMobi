@@ -16,6 +16,10 @@ public class DrawSkeleton {
                              {11,12}, {5,6}, {4,6}, {3,5}, {2,4}, {1,3}, {0,2},{0,1},{1,2}
         };
 
+        for(int i = 0; i < results.length; i++){
+            System.out.println(results[i]);
+        }
+
 
 
 

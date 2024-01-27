@@ -4,8 +4,8 @@
         "task": "PoseDetection",
         "codebase": "mmpose",
         "version": "1.3.1",
-        "pth": "/home/ibrahim/mmpose/work_dirs/rtmconfig/epoch_2_publish-eee7d426_20240125.pth",
-        "config": "/home/ibrahim/mmpose/work_dirs/rtmconfig/rtmconfig.py"
+        "pth": "/home/ibrahim/mmpose/work_dirs/rtmpose-t_8xb256-420e_coco-256x192/epoch_1_publish-de0cee58_20240126.pth",
+        "config": "/home/ibrahim/mmpose/work_dirs/rtmpose-t_8xb256-420e_coco-256x192/rtmpose-t_8xb256-420e_coco-256x192.py"
     },
     "codebase_config": {
         "type": "mmpose",
@@ -21,7 +21,8 @@
             "input"
         ],
         "output_names": [
-            "output"
+            "simcc_x",
+            "simcc_y"
         ],
         "input_shape": [
             192,
@@ -31,7 +32,7 @@
     },
     "backend_config": {
         "type": "ncnn",
-        "precision": "FP32",
+        "precision": "FP16",
         "use_vulkan": false
     },
     "calib_config": {}

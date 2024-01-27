@@ -30,6 +30,7 @@ public class Draw {
         int pointColor[] = {16, 16, 16, 16, 16, 9, 9, 9, 9, 9, 9, 0, 0, 0, 0, 0, 0};
 
         float scale = 1280 / (float)Math.max(frame.cols(), frame.rows());
+
         if (scale != 1) {
             Imgproc.resize(frame, frame, new Size(), scale, scale);
         }
@@ -38,7 +39,8 @@ public class Draw {
         }
         for (int i = 0; i < results.length; i++) {
             mmdeploy.PoseTracker.Result pt = results[i];
-            for (int j = 0; j < pt.keypoints.length; j++) {
+            for (int j = 0; j <= 16; j++) {
+//                System.out.println("KEYPOINTS" +results[i].keypoints);
                 PointF p = pt.keypoints[j];
                 p.x *= scale;
                 p.y *= scale;
@@ -49,6 +51,8 @@ public class Draw {
             for (int j = 0; j < skeleton.length; j++) {
                 int u = skeleton[j][0];
                 int v = skeleton[j][1];
+//                System.out.println("DEBUG"+pt.scores[u] + pt.scores[v]);
+
                 if (pt.scores[u] > scoreThr && pt.scores[v] > scoreThr) {
                     used[u] = used[v] = 1;
                     Point pointU = new Point(pt.keypoints[u].x, pt.keypoints[u].y);
