@@ -98,17 +98,17 @@
                 "component": "SimCCLabelDecode",
                 "params": {
                     "flip_test": false,
-                    "type": "SimCCLabel",
                     "input_size": [
                         192,
                         256
                     ],
+                    "normalize": false,
                     "sigma": [
                         4.9,
                         5.66
                     ],
                     "simcc_split_ratio": 2.0,
-                    "normalize": false,
+                    "type": "SimCCLabel",
                     "use_dark": false,
                     "export_postprocess": false
                 },

@@ -40,7 +40,6 @@ public class Draw {
             mmdeploy.PoseTracker.Result pt = results[i];
             for (int j = 0; j < pt.keypoints.length; j++) {
                 PointF p = pt.keypoints[j];
-                System.out.println("keypoints" +p);
                 p.x *= scale;
                 p.y *= scale;
                 pt.keypoints[j] = p;

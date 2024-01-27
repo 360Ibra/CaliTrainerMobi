@@ -3,9 +3,9 @@
     "codebase": {
         "task": "PoseDetection",
         "codebase": "mmpose",
-        "version": "1.2.0",
-        "pth": "C:\\Users\\Ibrahim\\PycharmProjects\\pythonProject8\\mmpose\\work_dirs\\rtmconfig\\best_PCK_epoch_210_publish-1e61d47a_20240104.pth",
-        "config": "C:\\Users\\Ibrahim\\PycharmProjects\\pythonProject8\\mmpose\\configs\\_base_\\rtmconfig.py"
+        "version": "1.3.1",
+        "pth": "/home/ibrahim/mmpose/work_dirs/rtmconfig/epoch_2_publish-eee7d426_20240125.pth",
+        "config": "/home/ibrahim/mmpose/work_dirs/rtmconfig/rtmconfig.py"
     },
     "codebase_config": {
         "type": "mmpose",
