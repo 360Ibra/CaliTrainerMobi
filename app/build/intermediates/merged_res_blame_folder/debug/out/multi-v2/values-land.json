@@ -14,7 +14,7 @@
                     }
                 },
                 {
-                    "source": "/home/ibrahim/Documents/CaliTrainerMobi/app/src/main/res/values-land/dimens.xml",
+                    "source": "/home/ibrahim/CaliTrainerMobi/app/src/main/res/values-land/dimens.xml",
                     "from": {
                         "startLines": "1",
                         "startColumns": "4",

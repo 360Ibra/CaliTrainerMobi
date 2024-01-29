@@ -32,9 +32,8 @@ public class DrawSkeleton {
                 {2, 4},
                 {3, 5},
                 {4, 6}};
+// Row COl what i think it is - row [19] col[0] = {4}
 
-        int linkA = skeleton[0][0];
-        int linkB = skeleton[0][1];
 //     Iterate through the array without going out of bounds
         System.out.println("Row Bounds" +skeleton.length);
 //      Printing out columns of the 2D array
@@ -46,14 +45,18 @@ public class DrawSkeleton {
 //            float[] scores = results[i].scores;
 
             for (int j=0; j < keypointsArray.length;j++){
+                int linkC = skeleton[18][0];
+                System.out.println("linkc" + linkC);
 //          Keypoint array length 17
             Point pt = new Point(keypointsArray[j].x,keypointsArray[j].y);
 //      Indexing specific keypoints
             Imgproc.circle(frame,pt,3,new Scalar(255,0,0),4);
             Imgproc.putText(frame,""+j,pt,Imgproc.FONT_HERSHEY_COMPLEX,0.5,new Scalar(0,0,255),1,Imgproc.LINE_AA);
-
+                int linkA = skeleton[j][0];
+                int linkB = skeleton[j][1];
 
             Imgproc.line(frame, new Point(keypointsArray[linkA].x,keypointsArray[linkA].y),new Point(keypointsArray[linkB].x,keypointsArray[linkB].y),new Scalar(255,0,0),2,Imgproc.LINE_AA);
+
 
 //          System.out.println("Look at this point"+ pt);
 //           TODO
