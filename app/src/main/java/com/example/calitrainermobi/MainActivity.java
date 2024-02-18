@@ -102,7 +102,7 @@ public class MainActivity extends AppCompatActivity {
         context.add(device);
         this.poseTracker = new mmdeploy.PoseTracker(detModel, poseModel, context);
         mmdeploy.PoseTracker.Params params = this.poseTracker.initParams();
-        params.detInterval = 15 ;
+        params.detInterval = 5 ;
         params.poseMaxNumBboxes = 1;
         long stateHandle = this.poseTracker.createState(params);
         return stateHandle;
@@ -169,7 +169,9 @@ public class MainActivity extends AppCompatActivity {
                     mmdeploy.PoseTracker.Result[] results = poseTracker.apply(stateHandle, mat, -1);
 
 //                    Draw.drawPoseTrackerResult(frame, results);
-                    DrawSkeleton.drawPoseTrackerResult(frame, results);
+//                    DrawSkeleton.drawPoseTrackerResult(frame, results);
+
+                    DrawSkeleton_.drawPoseTrackerResult(frame,results);
 
                     Bitmap bitmap = null;
                     bitmap = Bitmap.createBitmap(frame.width(), frame.height(), Bitmap.Config.ARGB_8888);
