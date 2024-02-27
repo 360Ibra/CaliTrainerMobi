@@ -102,7 +102,7 @@ public class MainActivity extends AppCompatActivity {
         context.add(device);
         this.poseTracker = new mmdeploy.PoseTracker(detModel, poseModel, context);
         mmdeploy.PoseTracker.Params params = this.poseTracker.initParams();
-        params.detInterval = 5 ;
+        params.detInterval = 3 ;
         params.poseMaxNumBboxes = 1;
         long stateHandle = this.poseTracker.createState(params);
         return stateHandle;
@@ -144,6 +144,7 @@ public class MainActivity extends AppCompatActivity {
             }
 
             this.videoCapture = new VideoCapture(path, org.opencv.videoio.Videoio.CAP_ANDROID);
+
 
             if (this.videoCapture.isOpened()) {
                 System.out.printf("failed to open video: %s", path);

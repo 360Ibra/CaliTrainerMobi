@@ -43,6 +43,7 @@ android {
     ndkVersion '23.1.7779620'
     buildToolsVersion '30.0.3'
     compileSdkVersion 30
+    namespace 'com.example.calitrainermobi'
 }
 
 dependencies {

@@ -14,6 +14,7 @@ id action_settings
 id addVideoButton
 id videoFrameView
 layout activity_main
+layout activity_main_2
 menu menu_main
 mipmap ic_launcher
 mipmap ic_launcher_round

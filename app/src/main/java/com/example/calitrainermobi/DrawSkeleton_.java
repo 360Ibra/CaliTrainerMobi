@@ -70,13 +70,22 @@ public class DrawSkeleton_ {
             for (int j =0; j < res.keypoints.length; j++){
 
 //             Getting Elbow join angle
-                Point A = new Point(res.keypoints[7].x, res.keypoints[7].y );
-                Point B = new Point(res.keypoints[5].x, res.keypoints[5].y );
-                Point C = new Point(res.keypoints[9].x, res.keypoints[9].y );
+                Point A = new Point(res.keypoints[8].x, res.keypoints[8].y );
+                Point B = new Point(res.keypoints[6].x, res.keypoints[6].y );
+                Point C = new Point(res.keypoints[10].x, res.keypoints[10].y );
 
-                Imgproc.putText(frame,"" + Trigonometry.calcAngle(A,B,C),A,Imgproc.FONT_HERSHEY_COMPLEX,0.5,new Scalar(0, 0, 255), 1, Imgproc.LINE_AA);
 
-                System.out.println("Angle" +Trigonometry.calcAngle(A,B,C) );
+                Point A1 = new Point(res.keypoints[7].x, res.keypoints[7].y );
+                Point B2 = new Point(res.keypoints[5].x, res.keypoints[5].y );
+                Point C3= new Point(res.keypoints[9].x, res.keypoints[9].y );
+
+//                Imgproc.putText(frame," " + Trigonometry.calcAngle(A1,B2,C3) + "            ",A1,Imgproc.FONT_HERSHEY_COMPLEX,1,new Scalar(0, 0, 255), 1, Imgproc.LINE_AA);
+//                Imgproc.putText(frame,"" + Trigonometry.calcAngle(A,B,C),A,Imgproc.FONT_HERSHEY_COMPLEX,1,new Scalar(0, 0, 255), 1, Imgproc.LINE_AA);
+                Point pos = new Point(100,100);
+                Point pos1 = new Point(100,50);
+
+                Imgproc.putText(frame,"Lshoulder + Lelbow + Lwrist angle =  " + Trigonometry.calcAngle(A1,B2,C3),pos,Imgproc.FONT_HERSHEY_COMPLEX,1,new Scalar(0, 255, 0), 1, Imgproc.LINE_AA);
+                Imgproc.putText(frame,"Rshoulder + Relbow + Rwrist angle =  " + Trigonometry.calcAngle(A,B,C),pos1 ,Imgproc.FONT_HERSHEY_COMPLEX,1,new Scalar(0, 255, 0), 1, Imgproc.LINE_AA);
 
 
                 if (used[j] == Boolean.TRUE){
