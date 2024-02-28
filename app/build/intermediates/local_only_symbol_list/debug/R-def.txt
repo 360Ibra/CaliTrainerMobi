@@ -12,6 +12,7 @@ drawable ic_launcher_background
 drawable ic_launcher_foreground
 id action_settings
 id addVideoButton
+id cameraView
 id videoFrameView
 layout activity_main
 layout activity_main_2

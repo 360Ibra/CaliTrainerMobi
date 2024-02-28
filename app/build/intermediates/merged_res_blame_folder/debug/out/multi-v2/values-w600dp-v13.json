@@ -4,7 +4,7 @@
             "outputFile": "com.example.calitrainermobi.app-mergeDebugResources-14:/values-w600dp-v13/values-w600dp-v13.xml",
             "map": [
                 {
-                    "source": "/home/ibrahim/CaliTrainerMobi/app/src/main/res/values-w600dp/dimens.xml",
+                    "source": "/home/ibrahim/Documents/CaliTrainerMobi/app/src/main/res/values-w600dp/dimens.xml",
                     "from": {
                         "startLines": "1",
                         "startColumns": "4",

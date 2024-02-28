@@ -8,6 +8,11 @@
         android:minSdkVersion="21"
         android:targetSdkVersion="30" />
 
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="false" />
+
+    <uses-permission android:name="android.permission.CAMERA" />
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
 
@@ -22,8 +27,9 @@
         android:testOnly="true"
         android:theme="@style/Theme.CaliTrainerMobi" >
         <activity
-            android:name="com.example.calitrainermobi.MainActivity"
-            android:exported="true" >
+            android:name="com.example.calitrainermobi.MainActivity2"
+            android:exported="true"
+            android:screenOrientation="landscape" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

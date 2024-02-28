@@ -6,106 +6,118 @@
 6
 7    <uses-sdk
 8        android:minSdkVersion="21"
-8-->/home/ibrahim/CaliTrainerMobi/app/src/main/AndroidManifest.xml
+8-->/home/ibrahim/Documents/CaliTrainerMobi/app/src/main/AndroidManifest.xml
 9        android:targetSdkVersion="30" />
-9-->/home/ibrahim/CaliTrainerMobi/app/src/main/AndroidManifest.xml
+9-->/home/ibrahim/Documents/CaliTrainerMobi/app/src/main/AndroidManifest.xml
 10
-11    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
-11-->/home/ibrahim/CaliTrainerMobi/app/src/main/AndroidManifest.xml:4:5-79
-11-->/home/ibrahim/CaliTrainerMobi/app/src/main/AndroidManifest.xml:4:22-77
-12    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
-12-->/home/ibrahim/CaliTrainerMobi/app/src/main/AndroidManifest.xml:5:5-80
-12-->/home/ibrahim/CaliTrainerMobi/app/src/main/AndroidManifest.xml:5:22-78
-13
-14    <application
-14-->/home/ibrahim/CaliTrainerMobi/app/src/main/AndroidManifest.xml:6:5-22:19
-15        android:allowBackup="true"
-15-->/home/ibrahim/CaliTrainerMobi/app/src/main/AndroidManifest.xml:7:9-35
-16        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-16-->[androidx.core:core:1.3.2] /home/ibrahim/.gradle/caches/transforms-3/04ba4e0beff04aa727b6541fb730e856/transformed/core-1.3.2/AndroidManifest.xml:24:18-86
-17        android:debuggable="true"
-18        android:icon="@mipmap/ic_launcher"
-18-->/home/ibrahim/CaliTrainerMobi/app/src/main/AndroidManifest.xml:8:9-43
-19        android:label="@string/app_name"
-19-->/home/ibrahim/CaliTrainerMobi/app/src/main/AndroidManifest.xml:9:9-41
-20        android:roundIcon="@mipmap/ic_launcher_round"
-20-->/home/ibrahim/CaliTrainerMobi/app/src/main/AndroidManifest.xml:10:9-54
-21        android:supportsRtl="true"
-21-->/home/ibrahim/CaliTrainerMobi/app/src/main/AndroidManifest.xml:11:9-35
-22        android:testOnly="true"
-23        android:theme="@style/Theme.CaliTrainerMobi" >
-23-->/home/ibrahim/CaliTrainerMobi/app/src/main/AndroidManifest.xml:12:9-53
-24        <activity
-24-->/home/ibrahim/CaliTrainerMobi/app/src/main/AndroidManifest.xml:13:9-21:20
-25            android:name="com.example.calitrainermobi.MainActivity"
-25-->/home/ibrahim/CaliTrainerMobi/app/src/main/AndroidManifest.xml:14:13-41
-26            android:exported="true" >
-26-->/home/ibrahim/CaliTrainerMobi/app/src/main/AndroidManifest.xml:15:13-36
-27            <intent-filter>
-27-->/home/ibrahim/CaliTrainerMobi/app/src/main/AndroidManifest.xml:16:13-20:29
-28                <action android:name="android.intent.action.MAIN" />
-28-->/home/ibrahim/CaliTrainerMobi/app/src/main/AndroidManifest.xml:17:17-69
-28-->/home/ibrahim/CaliTrainerMobi/app/src/main/AndroidManifest.xml:17:25-66
-29
-30                <category android:name="android.intent.category.LAUNCHER" />
-30-->/home/ibrahim/CaliTrainerMobi/app/src/main/AndroidManifest.xml:19:17-77
-30-->/home/ibrahim/CaliTrainerMobi/app/src/main/AndroidManifest.xml:19:27-74
-31            </intent-filter>
-32        </activity>
-33        <activity
-33-->[com.blankj:utilcodex:1.31.0] /home/ibrahim/.gradle/caches/transforms-3/782f4388d13bc285f4db0dc2c5fa8c35/transformed/utilcodex-1.31.0/AndroidManifest.xml:10:9-14:75
-34            android:name="com.blankj.utilcode.util.UtilsTransActivity4MainProcess"
-34-->[com.blankj:utilcodex:1.31.0] /home/ibrahim/.gradle/caches/transforms-3/782f4388d13bc285f4db0dc2c5fa8c35/transformed/utilcodex-1.31.0/AndroidManifest.xml:11:13-83
-35            android:configChanges="orientation|keyboardHidden|screenSize"
-35-->[com.blankj:utilcodex:1.31.0] /home/ibrahim/.gradle/caches/transforms-3/782f4388d13bc285f4db0dc2c5fa8c35/transformed/utilcodex-1.31.0/AndroidManifest.xml:12:13-74
-36            android:theme="@style/ActivityTranslucent"
-36-->[com.blankj:utilcodex:1.31.0] /home/ibrahim/.gradle/caches/transforms-3/782f4388d13bc285f4db0dc2c5fa8c35/transformed/utilcodex-1.31.0/AndroidManifest.xml:13:13-55
-37            android:windowSoftInputMode="stateHidden|stateAlwaysHidden" />
-37-->[com.blankj:utilcodex:1.31.0] /home/ibrahim/.gradle/caches/transforms-3/782f4388d13bc285f4db0dc2c5fa8c35/transformed/utilcodex-1.31.0/AndroidManifest.xml:14:13-72
-38        <activity
-38-->[com.blankj:utilcodex:1.31.0] /home/ibrahim/.gradle/caches/transforms-3/782f4388d13bc285f4db0dc2c5fa8c35/transformed/utilcodex-1.31.0/AndroidManifest.xml:15:9-20:75
-39            android:name="com.blankj.utilcode.util.UtilsTransActivity"
-39-->[com.blankj:utilcodex:1.31.0] /home/ibrahim/.gradle/caches/transforms-3/782f4388d13bc285f4db0dc2c5fa8c35/transformed/utilcodex-1.31.0/AndroidManifest.xml:16:13-71
-40            android:configChanges="orientation|keyboardHidden|screenSize"
-40-->[com.blankj:utilcodex:1.31.0] /home/ibrahim/.gradle/caches/transforms-3/782f4388d13bc285f4db0dc2c5fa8c35/transformed/utilcodex-1.31.0/AndroidManifest.xml:17:13-74
-41            android:multiprocess="true"
-41-->[com.blankj:utilcodex:1.31.0] /home/ibrahim/.gradle/caches/transforms-3/782f4388d13bc285f4db0dc2c5fa8c35/transformed/utilcodex-1.31.0/AndroidManifest.xml:18:13-40
+11    <uses-feature
+11-->/home/ibrahim/Documents/CaliTrainerMobi/app/src/main/AndroidManifest.xml:4:5-6:36
+12        android:name="android.hardware.camera"
+12-->/home/ibrahim/Documents/CaliTrainerMobi/app/src/main/AndroidManifest.xml:5:9-47
+13        android:required="false" />
+13-->/home/ibrahim/Documents/CaliTrainerMobi/app/src/main/AndroidManifest.xml:6:9-33
+14
+15    <uses-permission android:name="android.permission.CAMERA" />
+15-->/home/ibrahim/Documents/CaliTrainerMobi/app/src/main/AndroidManifest.xml:8:5-64
+15-->/home/ibrahim/Documents/CaliTrainerMobi/app/src/main/AndroidManifest.xml:8:22-62
+16    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+16-->/home/ibrahim/Documents/CaliTrainerMobi/app/src/main/AndroidManifest.xml:10:5-79
+16-->/home/ibrahim/Documents/CaliTrainerMobi/app/src/main/AndroidManifest.xml:10:22-77
+17    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+17-->/home/ibrahim/Documents/CaliTrainerMobi/app/src/main/AndroidManifest.xml:11:5-80
+17-->/home/ibrahim/Documents/CaliTrainerMobi/app/src/main/AndroidManifest.xml:11:22-78
+18
+19    <application
+19-->/home/ibrahim/Documents/CaliTrainerMobi/app/src/main/AndroidManifest.xml:17:5-34:19
+20        android:allowBackup="true"
+20-->/home/ibrahim/Documents/CaliTrainerMobi/app/src/main/AndroidManifest.xml:18:9-35
+21        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+21-->[androidx.core:core:1.3.1] /home/ibrahim/.gradle/caches/transforms-3/4b8eaad8afa39cb01bba51dd30a53fbe/transformed/core-1.3.1/AndroidManifest.xml:24:18-86
+22        android:debuggable="true"
+23        android:icon="@mipmap/ic_launcher"
+23-->/home/ibrahim/Documents/CaliTrainerMobi/app/src/main/AndroidManifest.xml:19:9-43
+24        android:label="@string/app_name"
+24-->/home/ibrahim/Documents/CaliTrainerMobi/app/src/main/AndroidManifest.xml:20:9-41
+25        android:roundIcon="@mipmap/ic_launcher_round"
+25-->/home/ibrahim/Documents/CaliTrainerMobi/app/src/main/AndroidManifest.xml:21:9-54
+26        android:supportsRtl="true"
+26-->/home/ibrahim/Documents/CaliTrainerMobi/app/src/main/AndroidManifest.xml:22:9-35
+27        android:testOnly="true"
+28        android:theme="@style/Theme.CaliTrainerMobi" >
+28-->/home/ibrahim/Documents/CaliTrainerMobi/app/src/main/AndroidManifest.xml:23:9-53
+29        <activity
+29-->/home/ibrahim/Documents/CaliTrainerMobi/app/src/main/AndroidManifest.xml:24:9-33:20
+30            android:name="com.example.calitrainermobi.MainActivity2"
+30-->/home/ibrahim/Documents/CaliTrainerMobi/app/src/main/AndroidManifest.xml:25:13-42
+31            android:exported="true"
+31-->/home/ibrahim/Documents/CaliTrainerMobi/app/src/main/AndroidManifest.xml:27:13-36
+32            android:screenOrientation="landscape" >
+32-->/home/ibrahim/Documents/CaliTrainerMobi/app/src/main/AndroidManifest.xml:26:13-50
+33            <intent-filter>
+33-->/home/ibrahim/Documents/CaliTrainerMobi/app/src/main/AndroidManifest.xml:28:13-32:29
+34                <action android:name="android.intent.action.MAIN" />
+34-->/home/ibrahim/Documents/CaliTrainerMobi/app/src/main/AndroidManifest.xml:29:17-69
+34-->/home/ibrahim/Documents/CaliTrainerMobi/app/src/main/AndroidManifest.xml:29:25-66
+35
+36                <category android:name="android.intent.category.LAUNCHER" />
+36-->/home/ibrahim/Documents/CaliTrainerMobi/app/src/main/AndroidManifest.xml:31:17-77
+36-->/home/ibrahim/Documents/CaliTrainerMobi/app/src/main/AndroidManifest.xml:31:27-74
+37            </intent-filter>
+38        </activity>
+39        <activity
+39-->[com.blankj:utilcodex:1.31.0] /home/ibrahim/.gradle/caches/transforms-3/782f4388d13bc285f4db0dc2c5fa8c35/transformed/utilcodex-1.31.0/AndroidManifest.xml:10:9-14:75
+40            android:name="com.blankj.utilcode.util.UtilsTransActivity4MainProcess"
+40-->[com.blankj:utilcodex:1.31.0] /home/ibrahim/.gradle/caches/transforms-3/782f4388d13bc285f4db0dc2c5fa8c35/transformed/utilcodex-1.31.0/AndroidManifest.xml:11:13-83
+41            android:configChanges="orientation|keyboardHidden|screenSize"
+41-->[com.blankj:utilcodex:1.31.0] /home/ibrahim/.gradle/caches/transforms-3/782f4388d13bc285f4db0dc2c5fa8c35/transformed/utilcodex-1.31.0/AndroidManifest.xml:12:13-74
 42            android:theme="@style/ActivityTranslucent"
-42-->[com.blankj:utilcodex:1.31.0] /home/ibrahim/.gradle/caches/transforms-3/782f4388d13bc285f4db0dc2c5fa8c35/transformed/utilcodex-1.31.0/AndroidManifest.xml:19:13-55
+42-->[com.blankj:utilcodex:1.31.0] /home/ibrahim/.gradle/caches/transforms-3/782f4388d13bc285f4db0dc2c5fa8c35/transformed/utilcodex-1.31.0/AndroidManifest.xml:13:13-55
 43            android:windowSoftInputMode="stateHidden|stateAlwaysHidden" />
-43-->[com.blankj:utilcodex:1.31.0] /home/ibrahim/.gradle/caches/transforms-3/782f4388d13bc285f4db0dc2c5fa8c35/transformed/utilcodex-1.31.0/AndroidManifest.xml:20:13-72
-44
-45        <provider
-45-->[com.blankj:utilcodex:1.31.0] /home/ibrahim/.gradle/caches/transforms-3/782f4388d13bc285f4db0dc2c5fa8c35/transformed/utilcodex-1.31.0/AndroidManifest.xml:22:9-30:20
-46            android:name="com.blankj.utilcode.util.UtilsFileProvider"
-46-->[com.blankj:utilcodex:1.31.0] /home/ibrahim/.gradle/caches/transforms-3/782f4388d13bc285f4db0dc2c5fa8c35/transformed/utilcodex-1.31.0/AndroidManifest.xml:23:13-70
-47            android:authorities="com.example.calitrainermobi.utilcode.fileprovider"
-47-->[com.blankj:utilcodex:1.31.0] /home/ibrahim/.gradle/caches/transforms-3/782f4388d13bc285f4db0dc2c5fa8c35/transformed/utilcodex-1.31.0/AndroidManifest.xml:24:13-73
-48            android:exported="false"
-48-->[com.blankj:utilcodex:1.31.0] /home/ibrahim/.gradle/caches/transforms-3/782f4388d13bc285f4db0dc2c5fa8c35/transformed/utilcodex-1.31.0/AndroidManifest.xml:25:13-37
-49            android:grantUriPermissions="true" >
-49-->[com.blankj:utilcodex:1.31.0] /home/ibrahim/.gradle/caches/transforms-3/782f4388d13bc285f4db0dc2c5fa8c35/transformed/utilcodex-1.31.0/AndroidManifest.xml:26:13-47
-50            <meta-data
-50-->[com.blankj:utilcodex:1.31.0] /home/ibrahim/.gradle/caches/transforms-3/782f4388d13bc285f4db0dc2c5fa8c35/transformed/utilcodex-1.31.0/AndroidManifest.xml:27:13-29:68
-51                android:name="android.support.FILE_PROVIDER_PATHS"
-51-->[com.blankj:utilcodex:1.31.0] /home/ibrahim/.gradle/caches/transforms-3/782f4388d13bc285f4db0dc2c5fa8c35/transformed/utilcodex-1.31.0/AndroidManifest.xml:28:17-67
-52                android:resource="@xml/util_code_provider_paths" />
-52-->[com.blankj:utilcodex:1.31.0] /home/ibrahim/.gradle/caches/transforms-3/782f4388d13bc285f4db0dc2c5fa8c35/transformed/utilcodex-1.31.0/AndroidManifest.xml:29:17-65
-53        </provider>
-54
-55        <service
-55-->[com.blankj:utilcodex:1.31.0] /home/ibrahim/.gradle/caches/transforms-3/782f4388d13bc285f4db0dc2c5fa8c35/transformed/utilcodex-1.31.0/AndroidManifest.xml:32:9-38:19
-56            android:name="com.blankj.utilcode.util.MessengerUtils$ServerService"
-56-->[com.blankj:utilcodex:1.31.0] /home/ibrahim/.gradle/caches/transforms-3/782f4388d13bc285f4db0dc2c5fa8c35/transformed/utilcodex-1.31.0/AndroidManifest.xml:33:13-81
-57            android:exported="false" >
-57-->[com.blankj:utilcodex:1.31.0] /home/ibrahim/.gradle/caches/transforms-3/782f4388d13bc285f4db0dc2c5fa8c35/transformed/utilcodex-1.31.0/AndroidManifest.xml:34:13-37
-58            <intent-filter>
-58-->[com.blankj:utilcodex:1.31.0] /home/ibrahim/.gradle/caches/transforms-3/782f4388d13bc285f4db0dc2c5fa8c35/transformed/utilcodex-1.31.0/AndroidManifest.xml:35:13-37:29
-59                <action android:name="com.example.calitrainermobi.messenger" />
-59-->[com.blankj:utilcodex:1.31.0] /home/ibrahim/.gradle/caches/transforms-3/782f4388d13bc285f4db0dc2c5fa8c35/transformed/utilcodex-1.31.0/AndroidManifest.xml:36:17-69
-59-->[com.blankj:utilcodex:1.31.0] /home/ibrahim/.gradle/caches/transforms-3/782f4388d13bc285f4db0dc2c5fa8c35/transformed/utilcodex-1.31.0/AndroidManifest.xml:36:25-66
-60            </intent-filter>
-61        </service>
-62    </application>
-63
-64</manifest>
+43-->[com.blankj:utilcodex:1.31.0] /home/ibrahim/.gradle/caches/transforms-3/782f4388d13bc285f4db0dc2c5fa8c35/transformed/utilcodex-1.31.0/AndroidManifest.xml:14:13-72
+44        <activity
+44-->[com.blankj:utilcodex:1.31.0] /home/ibrahim/.gradle/caches/transforms-3/782f4388d13bc285f4db0dc2c5fa8c35/transformed/utilcodex-1.31.0/AndroidManifest.xml:15:9-20:75
+45            android:name="com.blankj.utilcode.util.UtilsTransActivity"
+45-->[com.blankj:utilcodex:1.31.0] /home/ibrahim/.gradle/caches/transforms-3/782f4388d13bc285f4db0dc2c5fa8c35/transformed/utilcodex-1.31.0/AndroidManifest.xml:16:13-71
+46            android:configChanges="orientation|keyboardHidden|screenSize"
+46-->[com.blankj:utilcodex:1.31.0] /home/ibrahim/.gradle/caches/transforms-3/782f4388d13bc285f4db0dc2c5fa8c35/transformed/utilcodex-1.31.0/AndroidManifest.xml:17:13-74
+47            android:multiprocess="true"
+47-->[com.blankj:utilcodex:1.31.0] /home/ibrahim/.gradle/caches/transforms-3/782f4388d13bc285f4db0dc2c5fa8c35/transformed/utilcodex-1.31.0/AndroidManifest.xml:18:13-40
+48            android:theme="@style/ActivityTranslucent"
+48-->[com.blankj:utilcodex:1.31.0] /home/ibrahim/.gradle/caches/transforms-3/782f4388d13bc285f4db0dc2c5fa8c35/transformed/utilcodex-1.31.0/AndroidManifest.xml:19:13-55
+49            android:windowSoftInputMode="stateHidden|stateAlwaysHidden" />
+49-->[com.blankj:utilcodex:1.31.0] /home/ibrahim/.gradle/caches/transforms-3/782f4388d13bc285f4db0dc2c5fa8c35/transformed/utilcodex-1.31.0/AndroidManifest.xml:20:13-72
+50
+51        <provider
+51-->[com.blankj:utilcodex:1.31.0] /home/ibrahim/.gradle/caches/transforms-3/782f4388d13bc285f4db0dc2c5fa8c35/transformed/utilcodex-1.31.0/AndroidManifest.xml:22:9-30:20
+52            android:name="com.blankj.utilcode.util.UtilsFileProvider"
+52-->[com.blankj:utilcodex:1.31.0] /home/ibrahim/.gradle/caches/transforms-3/782f4388d13bc285f4db0dc2c5fa8c35/transformed/utilcodex-1.31.0/AndroidManifest.xml:23:13-70
+53            android:authorities="com.example.calitrainermobi.utilcode.fileprovider"
+53-->[com.blankj:utilcodex:1.31.0] /home/ibrahim/.gradle/caches/transforms-3/782f4388d13bc285f4db0dc2c5fa8c35/transformed/utilcodex-1.31.0/AndroidManifest.xml:24:13-73
+54            android:exported="false"
+54-->[com.blankj:utilcodex:1.31.0] /home/ibrahim/.gradle/caches/transforms-3/782f4388d13bc285f4db0dc2c5fa8c35/transformed/utilcodex-1.31.0/AndroidManifest.xml:25:13-37
+55            android:grantUriPermissions="true" >
+55-->[com.blankj:utilcodex:1.31.0] /home/ibrahim/.gradle/caches/transforms-3/782f4388d13bc285f4db0dc2c5fa8c35/transformed/utilcodex-1.31.0/AndroidManifest.xml:26:13-47
+56            <meta-data
+56-->[com.blankj:utilcodex:1.31.0] /home/ibrahim/.gradle/caches/transforms-3/782f4388d13bc285f4db0dc2c5fa8c35/transformed/utilcodex-1.31.0/AndroidManifest.xml:27:13-29:68
+57                android:name="android.support.FILE_PROVIDER_PATHS"
+57-->[com.blankj:utilcodex:1.31.0] /home/ibrahim/.gradle/caches/transforms-3/782f4388d13bc285f4db0dc2c5fa8c35/transformed/utilcodex-1.31.0/AndroidManifest.xml:28:17-67
+58                android:resource="@xml/util_code_provider_paths" />
+58-->[com.blankj:utilcodex:1.31.0] /home/ibrahim/.gradle/caches/transforms-3/782f4388d13bc285f4db0dc2c5fa8c35/transformed/utilcodex-1.31.0/AndroidManifest.xml:29:17-65
+59        </provider>
+60
+61        <service
+61-->[com.blankj:utilcodex:1.31.0] /home/ibrahim/.gradle/caches/transforms-3/782f4388d13bc285f4db0dc2c5fa8c35/transformed/utilcodex-1.31.0/AndroidManifest.xml:32:9-38:19
+62            android:name="com.blankj.utilcode.util.MessengerUtils$ServerService"
+62-->[com.blankj:utilcodex:1.31.0] /home/ibrahim/.gradle/caches/transforms-3/782f4388d13bc285f4db0dc2c5fa8c35/transformed/utilcodex-1.31.0/AndroidManifest.xml:33:13-81
+63            android:exported="false" >
+63-->[com.blankj:utilcodex:1.31.0] /home/ibrahim/.gradle/caches/transforms-3/782f4388d13bc285f4db0dc2c5fa8c35/transformed/utilcodex-1.31.0/AndroidManifest.xml:34:13-37
+64            <intent-filter>
+64-->[com.blankj:utilcodex:1.31.0] /home/ibrahim/.gradle/caches/transforms-3/782f4388d13bc285f4db0dc2c5fa8c35/transformed/utilcodex-1.31.0/AndroidManifest.xml:35:13-37:29
+65                <action android:name="com.example.calitrainermobi.messenger" />
+65-->[com.blankj:utilcodex:1.31.0] /home/ibrahim/.gradle/caches/transforms-3/782f4388d13bc285f4db0dc2c5fa8c35/transformed/utilcodex-1.31.0/AndroidManifest.xml:36:17-69
+65-->[com.blankj:utilcodex:1.31.0] /home/ibrahim/.gradle/caches/transforms-3/782f4388d13bc285f4db0dc2c5fa8c35/transformed/utilcodex-1.31.0/AndroidManifest.xml:36:25-66
+66            </intent-filter>
+67        </service>
+68    </application>
+69
+70</manifest>
