@@ -27,7 +27,7 @@
         android:testOnly="true"
         android:theme="@style/Theme.CaliTrainerMobi" >
         <activity
-            android:name="com.example.calitrainermobi.MainActivity2"
+            android:name="com.example.calitrainermobi.MainActivity"
             android:exported="true"
             android:screenOrientation="landscape" >
             <intent-filter>

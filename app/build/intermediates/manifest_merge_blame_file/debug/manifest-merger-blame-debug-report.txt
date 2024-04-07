@@ -6,62 +6,62 @@
 6
 7    <uses-sdk
 8        android:minSdkVersion="21"
-8-->/home/ibrahim/Documents/CaliTrainerMobi/app/src/main/AndroidManifest.xml
+8-->/home/ibrahim/CaliTrainerMobi/app/src/main/AndroidManifest.xml
 9        android:targetSdkVersion="30" />
-9-->/home/ibrahim/Documents/CaliTrainerMobi/app/src/main/AndroidManifest.xml
+9-->/home/ibrahim/CaliTrainerMobi/app/src/main/AndroidManifest.xml
 10
 11    <uses-feature
-11-->/home/ibrahim/Documents/CaliTrainerMobi/app/src/main/AndroidManifest.xml:4:5-6:36
+11-->/home/ibrahim/CaliTrainerMobi/app/src/main/AndroidManifest.xml:4:5-6:36
 12        android:name="android.hardware.camera"
-12-->/home/ibrahim/Documents/CaliTrainerMobi/app/src/main/AndroidManifest.xml:5:9-47
+12-->/home/ibrahim/CaliTrainerMobi/app/src/main/AndroidManifest.xml:5:9-47
 13        android:required="false" />
-13-->/home/ibrahim/Documents/CaliTrainerMobi/app/src/main/AndroidManifest.xml:6:9-33
+13-->/home/ibrahim/CaliTrainerMobi/app/src/main/AndroidManifest.xml:6:9-33
 14
 15    <uses-permission android:name="android.permission.CAMERA" />
-15-->/home/ibrahim/Documents/CaliTrainerMobi/app/src/main/AndroidManifest.xml:8:5-64
-15-->/home/ibrahim/Documents/CaliTrainerMobi/app/src/main/AndroidManifest.xml:8:22-62
+15-->/home/ibrahim/CaliTrainerMobi/app/src/main/AndroidManifest.xml:8:5-64
+15-->/home/ibrahim/CaliTrainerMobi/app/src/main/AndroidManifest.xml:8:22-62
 16    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
-16-->/home/ibrahim/Documents/CaliTrainerMobi/app/src/main/AndroidManifest.xml:10:5-79
-16-->/home/ibrahim/Documents/CaliTrainerMobi/app/src/main/AndroidManifest.xml:10:22-77
+16-->/home/ibrahim/CaliTrainerMobi/app/src/main/AndroidManifest.xml:10:5-79
+16-->/home/ibrahim/CaliTrainerMobi/app/src/main/AndroidManifest.xml:10:22-77
 17    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
-17-->/home/ibrahim/Documents/CaliTrainerMobi/app/src/main/AndroidManifest.xml:11:5-80
-17-->/home/ibrahim/Documents/CaliTrainerMobi/app/src/main/AndroidManifest.xml:11:22-78
+17-->/home/ibrahim/CaliTrainerMobi/app/src/main/AndroidManifest.xml:11:5-80
+17-->/home/ibrahim/CaliTrainerMobi/app/src/main/AndroidManifest.xml:11:22-78
 18
 19    <application
-19-->/home/ibrahim/Documents/CaliTrainerMobi/app/src/main/AndroidManifest.xml:17:5-34:19
+19-->/home/ibrahim/CaliTrainerMobi/app/src/main/AndroidManifest.xml:17:5-34:19
 20        android:allowBackup="true"
-20-->/home/ibrahim/Documents/CaliTrainerMobi/app/src/main/AndroidManifest.xml:18:9-35
+20-->/home/ibrahim/CaliTrainerMobi/app/src/main/AndroidManifest.xml:18:9-35
 21        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-21-->[androidx.core:core:1.3.1] /home/ibrahim/.gradle/caches/transforms-3/4b8eaad8afa39cb01bba51dd30a53fbe/transformed/core-1.3.1/AndroidManifest.xml:24:18-86
+21-->[androidx.core:core:1.3.2] /home/ibrahim/.gradle/caches/transforms-3/04ba4e0beff04aa727b6541fb730e856/transformed/core-1.3.2/AndroidManifest.xml:24:18-86
 22        android:debuggable="true"
 23        android:icon="@mipmap/ic_launcher"
-23-->/home/ibrahim/Documents/CaliTrainerMobi/app/src/main/AndroidManifest.xml:19:9-43
+23-->/home/ibrahim/CaliTrainerMobi/app/src/main/AndroidManifest.xml:19:9-43
 24        android:label="@string/app_name"
-24-->/home/ibrahim/Documents/CaliTrainerMobi/app/src/main/AndroidManifest.xml:20:9-41
+24-->/home/ibrahim/CaliTrainerMobi/app/src/main/AndroidManifest.xml:20:9-41
 25        android:roundIcon="@mipmap/ic_launcher_round"
-25-->/home/ibrahim/Documents/CaliTrainerMobi/app/src/main/AndroidManifest.xml:21:9-54
+25-->/home/ibrahim/CaliTrainerMobi/app/src/main/AndroidManifest.xml:21:9-54
 26        android:supportsRtl="true"
-26-->/home/ibrahim/Documents/CaliTrainerMobi/app/src/main/AndroidManifest.xml:22:9-35
+26-->/home/ibrahim/CaliTrainerMobi/app/src/main/AndroidManifest.xml:22:9-35
 27        android:testOnly="true"
 28        android:theme="@style/Theme.CaliTrainerMobi" >
-28-->/home/ibrahim/Documents/CaliTrainerMobi/app/src/main/AndroidManifest.xml:23:9-53
+28-->/home/ibrahim/CaliTrainerMobi/app/src/main/AndroidManifest.xml:23:9-53
 29        <activity
-29-->/home/ibrahim/Documents/CaliTrainerMobi/app/src/main/AndroidManifest.xml:24:9-33:20
-30            android:name="com.example.calitrainermobi.MainActivity2"
-30-->/home/ibrahim/Documents/CaliTrainerMobi/app/src/main/AndroidManifest.xml:25:13-42
+29-->/home/ibrahim/CaliTrainerMobi/app/src/main/AndroidManifest.xml:24:9-33:20
+30            android:name="com.example.calitrainermobi.MainActivity"
+30-->/home/ibrahim/CaliTrainerMobi/app/src/main/AndroidManifest.xml:25:13-41
 31            android:exported="true"
-31-->/home/ibrahim/Documents/CaliTrainerMobi/app/src/main/AndroidManifest.xml:27:13-36
+31-->/home/ibrahim/CaliTrainerMobi/app/src/main/AndroidManifest.xml:27:13-36
 32            android:screenOrientation="landscape" >
-32-->/home/ibrahim/Documents/CaliTrainerMobi/app/src/main/AndroidManifest.xml:26:13-50
+32-->/home/ibrahim/CaliTrainerMobi/app/src/main/AndroidManifest.xml:26:13-50
 33            <intent-filter>
-33-->/home/ibrahim/Documents/CaliTrainerMobi/app/src/main/AndroidManifest.xml:28:13-32:29
+33-->/home/ibrahim/CaliTrainerMobi/app/src/main/AndroidManifest.xml:28:13-32:29
 34                <action android:name="android.intent.action.MAIN" />
-34-->/home/ibrahim/Documents/CaliTrainerMobi/app/src/main/AndroidManifest.xml:29:17-69
-34-->/home/ibrahim/Documents/CaliTrainerMobi/app/src/main/AndroidManifest.xml:29:25-66
+34-->/home/ibrahim/CaliTrainerMobi/app/src/main/AndroidManifest.xml:29:17-69
+34-->/home/ibrahim/CaliTrainerMobi/app/src/main/AndroidManifest.xml:29:25-66
 35
 36                <category android:name="android.intent.category.LAUNCHER" />
-36-->/home/ibrahim/Documents/CaliTrainerMobi/app/src/main/AndroidManifest.xml:31:17-77
-36-->/home/ibrahim/Documents/CaliTrainerMobi/app/src/main/AndroidManifest.xml:31:27-74
+36-->/home/ibrahim/CaliTrainerMobi/app/src/main/AndroidManifest.xml:31:17-77
+36-->/home/ibrahim/CaliTrainerMobi/app/src/main/AndroidManifest.xml:31:27-74
 37            </intent-filter>
 38        </activity>
 39        <activity
